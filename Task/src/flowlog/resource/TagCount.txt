@@ -1,0 +1,12 @@
+Port/Protocol	Count
+tag1	10766
+tag8	9323
+tag10	9703
+tag9	9218
+tag6	9707
+tag7	8928
+tag4	10391
+tag5	10349
+tag2	10761
+Untagged	1456
+tag3	9398
