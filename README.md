@@ -19,6 +19,7 @@ The overall flow of working is as follows
 
 Design choices in the system include using Inheritance to create Objects to hold different versions of the logs.
 Builder Classes are created for different versions of logs to help create objects with different set of fields easily.
+All the fields in the Model classes are kept as String fields since Flowlogs can be sent as plain text.
 
 BaseFlowLogEntry Class is maintained as Abstract Class to help facilitate future updations of version of log.
 
