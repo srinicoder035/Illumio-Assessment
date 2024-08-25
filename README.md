@@ -35,6 +35,7 @@ Packages under Src
 All the Testing files are under Test
 
 Pom.xml contains all the dependencies required for the project.
+The project can be run by executing the FlowlogAnalyzerApp.java file.
 
 ## Input Files
 
