@@ -9,7 +9,7 @@ Testing is done using JUnit.
 
 ## Working
 
-The approach taken to compute Port/Protocol and Tag Frequencies is the use of Map Reduce Concept using Streams in Java. This approach is ideal for scaling in a distributed environment. The method can also be further optimized by using Parallel Streams in realtime for larger inputs. Parallel Streams is not used in the project considering the Input constraints are smaller and parallelization is not very effective for this size of inputs.
+The approach taken to compute Port/Protocol and Tag Frequencies is the use of Map Reduce Concept using Streams in Java. Map Reduce approach is ideal for scaling in a distributed environment. Considering the current dataset and constraints of not using Hadoop, Java Streams is one of the best approaches. The method can also be further optimized by using Parallel Streams in realtime for larger inputs. Parallel Streams is not used in the project considering the Input constraints are smaller and parallelization is not very effective for this size of inputs.
 
 The overall flow of working is as follows
 - The Parser Classes (FlowLogParser and LookupParser) parse input data from the respective Files into corresponding Java Objects (BaseFlowLogEntry, LookupEntry) for processing.
